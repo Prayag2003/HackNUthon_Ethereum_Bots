@@ -1,0 +1,38 @@
+{
+  "name": "hacknuthon-ethereumbots",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000H\u0000a\u0000c\u0000k\u0000N\u0000U\u0000t\u0000h\u0000o\u0000n\u0000-\u0000E\u0000t\u0000h\u0000e\u0000r\u0000e\u0000u\u0000m\u0000B\u0000o\u0000t\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denilbhatt0814/HackNUthon-EthereumBots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denilbhatt0814/HackNUthon-EthereumBots/issues"
+  },
+  "homepage": "https://github.com/denilbhatt0814/HackNUthon-EthereumBots#readme",
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "@types/express": "^4.17.17",
+    "@types/node-fetch": "^2.6.3",
+    "apollo-server-express": "^3.12.0",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.0.0",
+    "joi": "^17.9.2",
+    "mongoose": "^7.1.0",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "redis": "^4.6.6",
+    "soap": "^1.0.0"
+  }
+}

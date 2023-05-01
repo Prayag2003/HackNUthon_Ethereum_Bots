@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ord="http://www.example.com/OrderService/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ord:FulfillOrderRequest>
+         <customerName>John Doe</customerName>
+         <customerAddress>Anywhere</customerAddress>
+         <paymentMode>COD</paymentMode>
+         <items>
+            <item>
+               <id>31045</id>
+               <name>Booat</name>
+               <price>2300</price>
+               <quantity>2</quantity>
+            </item>
+            
+               <item>
+               <id>7320</id>
+               <name>Laptopp</name>
+               <price>90090</price>
+               <quantity>1</quantity>
+            </item>
+         </items>
+         <totalPrice>93200</totalPrice>
+      </ord:FulfillOrderRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
