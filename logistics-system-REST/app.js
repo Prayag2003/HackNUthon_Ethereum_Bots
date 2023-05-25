@@ -3,8 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const port = process.env.PORT || 3000;
 const logisticSchema = require("./Models/schema");
-const db =
-  "mongodb+srv://Aniket:ap2409@logisticsystem.87nwglo.mongodb.net/LogisticSystem?retryWrites=true&w=majority";
+const db = process.env.MONGODB_KEY;
 
 app.use(express.json());
 
